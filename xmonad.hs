@@ -800,6 +800,7 @@ myKeys home conf =
     , ("<XF86Mail>"              , spawn myEmail)
     , ("<XF86Calculator>"        , runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
     , ("<XF86Eject>"             , spawn "toggleeject")
+    , ("<XF86Favorites>"         , spawn "i3lock-fancy-rapid 5 pixel")
     , ("<Print>"                 , spawn "scrotd 0")
     ]
     -- Appending search engine prompts to keybindings list.
